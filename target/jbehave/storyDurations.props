@@ -1,0 +1,6 @@
+#org.jbehave.core.embedder.StoryManager
+#Mon Jul 22 09:48:42 SAMT 2019
+OurFirstATC.story=6000
+threads=1
+total=6000
+threadAverage=6000
