@@ -15,7 +15,7 @@ public class UISteps extends Steps {
     @Given("I open the browser")
     public void openingBrowser() {
         if (driver == null) {
-            System.setProperty("webdriver.chrome.driver", "/home/raltynbaev/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "//");
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--disable-extensions");
             driver = new ChromeDriver(options);
